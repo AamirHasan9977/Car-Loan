@@ -48,7 +48,7 @@ public class TestClass extends BaseUI {
 
 	}
 	
-	@Test(dataProvider = "testCase2")
+	//@Test(dataProvider = "testCase2")
 	public void TestCase2(Hashtable<String, String> testtable) throws InterruptedException, IOException {
 		logger = report.createTest("EMI calculation");
 		invokeBrowser("chrome");
