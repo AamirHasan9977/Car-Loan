@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestCases.TestClass
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 74.314 s <<< FAILURE! - in TestCases.TestClass
+TestCase2(TestCases.TestClass)  Time elapsed: 18.968 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NPC', ip: '192.168.43.127', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+	at TestCases.TestClass.TestCase2(TestClass.java:64)
+
